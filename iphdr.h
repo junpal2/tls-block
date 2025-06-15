@@ -6,8 +6,8 @@
 
 #pragma pack(push, 1)
 struct IpHdr final {
-    uint8_t ip_len:4;
     uint8_t ip_v:4;
+    uint8_t ip_len:4;
     uint8_t tos;
     uint16_t total_len;
     uint16_t id;
