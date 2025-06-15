@@ -9,8 +9,8 @@ struct TcpHdr final {
 	uint16_t dport; // Destination port
 	uint32_t seqnum;  // Sequence Number
 	uint32_t acknum;  // Acknowledgement number
-	uint8_t reserved:4; // Reserved 	
-	uint8_t th_off:4; // Header length
+	uint8_t th_off:4; // Reserved 	
+	uint8_t reserved:4; // Header length
 	uint8_t flags;  // packet flags
 	uint16_t win;   // Window Size
 	uint16_t crc;   // Header Checksum
